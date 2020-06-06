@@ -15,6 +15,15 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .top-event-date {
+    font-size: 1em;
+  }
+  .top-event-title {
+    font-size: 2em;
+  }
+  .top-event-about {
+    font-size: 0.75em;
+  }
   .show-hide {
     display: none;
   }
@@ -40,6 +49,7 @@
     background: linear-gradient(-90deg, #0F1821, #151E27, #1A4E82, #E03545);
     background-size: 200% 200%;
     animation: change 10s ease-in-out infinite;
+    z-index: 99;
   }
   #navIconsBottom a {
     color: #fff;
@@ -48,6 +58,9 @@
   }
   .event {
     width: 100%;
+  }
+  #myBtn {
+    bottom: 10%;
   }
 }
 @media screen and (max-width: 450px) {
