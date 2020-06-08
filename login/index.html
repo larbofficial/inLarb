@@ -24,15 +24,16 @@
     <div class="card">
 
         <div class="left-half">
-            <button>CREATE ACCOUNT</button>
+            <img class="logo" src="logo.png">
+
             <img class="login-svg" src="login.svg">
 
         </div>
 
         <div class="right-half">
 
-            <img class="logo" src="logo.png">
 
+            <button class="create-account">CREATE ACCOUNT</button>
             <div class="social-media-links">
                 <i class="fab fa-facebook"></i>
                 <i class="fab fa-twitter"></i>
@@ -41,8 +42,8 @@
 
             <form>
 
-                <i class="far fa-user"></i><input type="text" id="fusername" name="fusername" placeholder="username"><br><br>
-                <i class="fas fa-lock-open"></i><input type="text" id="fpassword" name="fpassword" placeholder="password"><br><br>
+                <i class="far fa-user"></i><input type="text" id="fusername" name="fusername" placeholder="username" required><br><br>
+                <i class="fas fa-lock-open"></i><input type="text" id="fpassword" name="fpassword" placeholder="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"><br><br>
 
 
                 <div class="remember-forget">
