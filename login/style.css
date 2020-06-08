@@ -27,33 +27,34 @@
     .logo {
         width: 5rem;
         height: 2rem;
-        margin-left: -11rem;
+        margin-left: 6%;
         margin-top: 2%;
     }
     .social-media-links {
         display: flex;
         margin-left: 33%;
+        margin-top: 26%;
     }
     .social-media-links i {
         padding-left: 5%;
         color: #ce074b;
     }
-    .left-half button {
+    .create-account {
         background-color: white;
         color: #ce074b;
         width: 41%;
         border: 1px solid #ce074b;
         font-size: 6px;
-        margin-top: 6%;
+        margin-top: 4%;
         margin-left: 58%;
     }
     form {
         margin-left: 10%;
-        margin-top: 19%;
+        margin-top: 17%;
     }
     .login-svg {
         width: 93%;
-        margin-top: 23%;
+        margin-top: 7%;
         margin-left: 4%;
     }
     .remember-forget {
