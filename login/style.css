@@ -1,0 +1,119 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #405050;
+    }
+    .card {
+        margin-top: 55%;
+        display: flex;
+    }
+    .left-half {
+        height: 15rem;
+        background: linear-gradient(45deg, #009688, #405050);
+        width: 15rem;
+        background-size: 24rem;
+        background-repeat: no-repeat;
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 5%;
+    }
+    .right-half {
+        background-color: white;
+        height: 15rem;
+        width: 15rem;
+        border-top-right-radius: 5%;
+        border-bottom-right-radius: 5%;
+    }
+    .logo {
+        width: 5rem;
+        height: 2rem;
+        margin-left: -11rem;
+        margin-top: 2%;
+    }
+    .social-media-links {
+        display: flex;
+        margin-left: 33%;
+    }
+    .social-media-links i {
+        padding-left: 5%;
+        color: #ce074b;
+    }
+    .left-half button {
+        background-color: white;
+        color: #ce074b;
+        width: 41%;
+        border: 1px solid #ce074b;
+        font-size: 6px;
+        margin-top: 6%;
+        margin-left: 58%;
+    }
+    form {
+        margin-left: 10%;
+        margin-top: 19%;
+    }
+    .login-svg {
+        width: 93%;
+        margin-top: 23%;
+        margin-left: 4%;
+    }
+    .remember-forget {
+        display: flex;
+        font-size: 46%;
+    }
+    .remember-text {
+        margin-top: 3%;
+    }
+    .forget-text {
+        margin-left: 4%;
+        margin-top: 3%;
+    }
+    #remember {
+        width: 5%;
+    }
+    #fusername {
+        margin-bottom: 1%;
+    }
+    #fusername,
+    #fpassword {
+        outline: none;
+        border-top-right-radius: 10%;
+        border-top-left-radius: 10%;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+    }
+    form i {
+        position: absolute;
+        margin-left: 36%;
+        font-size: 11px;
+        margin-top: 1%;
+    }
+    button {
+        background: #e91e63;
+        border-top-right-radius: 10%;
+        border-bottom-right-radius: 10%;
+        border-top-left-radius: 10%;
+        border-bottom-left-radius: 10%;
+        margin-left: 28%;
+        color: white;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
